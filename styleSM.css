@@ -1,0 +1,46 @@
+@media screen and (max-width : 576px){
+    .cardIntro, .getReward, .ring, .mordor, .hunters, .aboutus{
+        padding-left: 0;
+        padding-right: 0;
+     }
+
+     form{
+         margin: 1em;
+     }
+
+     .getReward p{
+        margin: 1em;
+     }
+
+     .ring h4, .ring h5, .ring p{
+         font-size: 1em;
+         white-space: normal;
+     }
+
+     .ring h3{
+         font-size: 1.5em;
+         text-align: center;
+     }
+
+     .elemHunters article{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20%;
+     }  
+
+     .getReward h2{
+        width: 50%;
+    }
+
+    .carousel p{
+        font-size: 25px;
+    }
+
+    .mordor {
+        padding: 1em;
+    }
+
+    .moreinfo h4 {
+        font-size: small;
+    }
+}
